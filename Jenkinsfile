@@ -1,5 +1,5 @@
 pipeline {
-  agent { label "build && windows" }
+  agent { label "windows" } //build && windows
   stages {
     stage('Clean Workspace'){
       steps {
@@ -10,11 +10,11 @@ pipeline {
     stage('Checkout'){
       steps {
         checkout([$class: 'GitSCM', 
-        branches: [[name: '*/master']], 
+        branches: [[name: '*/main']], 
         doGenerateSubmoduleConfigurations: false, 
         extensions: [], 
         submoduleCfg: [], 
-        userRemoteConfigs: [[url: 'https://github.com/ismail0352/Packer-Terraform-Jenkins.git']]])
+        userRemoteConfigs: [[url: 'https://github.com/degrasse-python/dotnet-prime.git']]])
 
       }
     }

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gA7qOg368pFHxQia679oeVe95J41LWU/mn3P85UZM4YUAJ74G+ZGNrgwI7kWPf97bgE8XafSgbnbHHCB3VjGpg==",
+  "success": true,
+  "projectFilePath": "/Users/cb-dsaunders/githubRepos/dotnet-prime/PrimeService/PrimeService.csproj",
+  "expectedPackageFiles": [
+    "/Users/cb-dsaunders/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/cb-dsaunders/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
